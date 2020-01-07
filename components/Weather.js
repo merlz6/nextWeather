@@ -19,7 +19,9 @@ class Weather extends Component {
             </CardTitle>
             { (this.props.currentWeather.weather[0].main === 'Clouds')? <CardImg  src='/static/cloud.png' alt="Card image cap" />: ''
             }
-            { (this.props.currentWeather.weather[0].main === 'Sunny') ? <CardImg  src='/static/sunIcon.png' alt="Card image cap" />: ''
+            { (this.props.currentWeather.weather[0].main === 'Clear') ? <CardImg  src='/static/sunIcon.png' alt="Card image cap" />: ''
+            }
+            { (this.props.currentWeather.weather[0].main === 'Rain') ? <CardImg  src='/static/rain.png' alt="Card image cap" />: ''
             }
               <CardBody>
 
