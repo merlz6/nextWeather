@@ -1,1 +1,0 @@
-{"version":3,"file":"static/webpack/static/development/pages/show.js.c5ed03dfdc001b9ab4d5.hot-update.js","sources":["webpack:///./pages/show.js"],"sourcesContent":["const Show = (props) => (\n    <div>{props.weather}</div>\n)\n\nexport default Show;\n"],"mappings":";;;;;;;;;;;;;;;;;AAAA;AAAA;AACA;AAAA;AAAA;AAAA;AAAA;AAAA;AADA;AACA;AAGA;;;;A","sourceRoot":""}

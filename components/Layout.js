@@ -9,6 +9,7 @@ const Layout = (props) => (
         <link rel="icon" href=""/>
       </Head>
       <Nav />
+
     </div>
 )
 
