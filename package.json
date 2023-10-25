@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start -p $PORT",
-    "heroku-postbuild": "npm run build"
+    "start": "next start",
+    "lint": "next lint"
   },
   "keywords": [],
   "author": "",
